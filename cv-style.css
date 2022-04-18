@@ -1,0 +1,212 @@
+.cv-body::before{
+  content: "";
+  background: url("images/cv-background.jpg") no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  z-index: 0;
+  position: absolute;
+  filter: brightness(0.7);
+}
+
+.cv-heading{
+  text-align: center;
+  font-size: 3vh;
+}
+
+.cv .profile-photo{
+  float: left;
+  position: relative;
+  display: block;
+  margin: 30px;
+  border: 0.5px solid whitesmoke;
+  max-width: 300px;
+}
+
+hr{
+  width: 60%;
+}
+
+.portfolio table {
+  text-align: left;
+  border-spacing:  0.7rem;
+}
+
+.portfolio th, img {
+  display: block;
+}
+
+.portfolio table tr td img {
+  border: 1.5px solid whitesmoke;
+  max-width: 100%;
+  max-height: 520px;
+}
+
+.portfolio table td {
+  display: none;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+label {
+  background-color: hsla(0, 0%, 96%, 0.3);
+  border: 2px solid hsl(225, 83%, 43%);
+  border-radius: 8px;
+  font-size: small;
+  white-space: nowrap;
+}
+
+#ch-bx1:checked ~ table .td1 {display: block}
+#ch-bx2:checked ~ table .td2 {display: block}
+#ch-bx3:checked ~ table .td3 {display: block}
+#ch-bx4:checked ~ table .td4 {display: block}
+#ch-bx5:checked ~ table .td5 {display: block}
+#ch-bx6:checked ~ table .td6 {display: block}
+#ch-bx7:checked ~ table .td7 {display: block}
+
+.cv .education h2{
+  clear: left;
+}
+
+.cv .image {
+  text-align: right;
+  width: 40%;
+  max-width: 280px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 65%;
+  margin-bottom: 50px;
+  border: 2px solid rgb(13,64,146);
+  opacity: 0.9;
+}
+
+.qualities .qualities-list {
+  display:inline-flex ;
+  float: left;
+  font-family: cursive;
+  font-size: 2.1vh;
+}
+
+.contact-body::before{
+  content: "";
+  z-index: 0;
+  background: url("images/contact_me/contact_me.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-wrapper {
+  top: 30%;
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  background-color: whitesmoke;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  max-width: 850px;
+  padding: 55px;
+}
+
+.message,  .fields {
+  width: 50%;
+}
+
+.fields input, .message textarea{
+  background: transparent;
+  border: 0;
+  border-bottom: solid hsl(213, 62%, 23%);
+  font-weight: bold;
+  font-size: 2vh;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+textarea {
+  height: 75%;
+  margin: 0;
+  width: 100%;
+  resize: none;
+}
+
+.btn-border {
+  height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+.send-button {
+  background-color: hsl(215, 83%, 43%);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  margin-top: 1rem;
+  padding: 11px 50px;
+}
+
+@media screen and (max-height: 700px){
+  .contact-wrapper {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 635px ) {
+  h2, p {
+    clear: both;
+  }
+
+  hr{
+    display: none;
+  }
+
+  .cv .profile-photo{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact-form {
+      flex-direction: column;
+      padding: 0;
+      position: relative;
+      top: 20%;
+  }
+
+  .contact-form input{
+      width: 100%;;
+      padding: 0;
+  }
+
+  .send-button {
+    margin-left: 12.5%;
+  }
+
+  .message textarea {
+      max-height: 75px;
+      width: 100%;
+  }
+
+  .fields, .message  {
+      width: 85%;
+  }
+}
+
+@media screen and (max-width: 1100px ) {
+  .cv-body {
+    padding-bottom: 10vh;
+    width: fit-content;
+  }
+}
+
