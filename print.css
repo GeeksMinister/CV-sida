@@ -6,12 +6,17 @@
       margin: 5px;
       padding: 5px;
     }
-    p , table, li {
+    img {
+      margin: 0 auto;
+    }
+    p , table, li, .portfolio table {
       text-shadow: none;
       color: black;
     }
-    footer, video {
+    footer, video, label {
       display: none;
     }
-
+    .portfolio table td {
+      display: block;
+    }
   }

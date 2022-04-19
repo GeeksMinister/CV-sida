@@ -30,10 +30,13 @@ hr{
 .portfolio table {
   text-align: left;
   border-spacing:  0.7rem;
+  font-size: 1rem;
+  color: hsla(0, 0%, 90%);
 }
 
 .portfolio th, img {
   display: block;
+  font-family: 'Merriweather', serif;
 }
 
 .portfolio table tr td img {
@@ -56,15 +59,40 @@ label {
   border-radius: 8px;
   font-size: small;
   white-space: nowrap;
+  vertical-align: sub;
+}
+
+.show-less{
+  display: none;
 }
 
 #ch-bx1:checked ~ table .td1 {display: block}
+#ch-bx1:checked ~ table .show-less1 {display: inline-block}
+#ch-bx1:checked ~ table .show-more1 {display: none} 
+
 #ch-bx2:checked ~ table .td2 {display: block}
+#ch-bx2:checked ~ table .show-less2 {display: inline-block}
+#ch-bx2:checked ~ table .show-more2 {display: none} 
+
 #ch-bx3:checked ~ table .td3 {display: block}
+#ch-bx3:checked ~ table .show-less3 {display: inline-block}
+#ch-bx3:checked ~ table .show-more3 {display: none} 
+
 #ch-bx4:checked ~ table .td4 {display: block}
+#ch-bx4:checked ~ table .show-less4 {display: inline-block}
+#ch-bx4:checked ~ table .show-more4 {display: none} 
+
 #ch-bx5:checked ~ table .td5 {display: block}
+#ch-bx5:checked ~ table .show-less5 {display: inline-block}
+#ch-bx5:checked ~ table .show-more5 {display: none} 
+
 #ch-bx6:checked ~ table .td6 {display: block}
+#ch-bx6:checked ~ table .show-less6 {display: inline-block}
+#ch-bx6:checked ~ table .show-more6 {display: none} 
+
 #ch-bx7:checked ~ table .td7 {display: block}
+#ch-bx7:checked ~ table .show-less7 {display: inline-block}
+#ch-bx7:checked ~ table .show-more7 {display: none} 
 
 .cv .education h2{
   clear: left;
