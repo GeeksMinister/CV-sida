@@ -1,6 +1,6 @@
 .cv-body::before{
   content: "";
-  background: url("images/cv-background.jpg") no-repeat;
+  background: url("../images/cv-background.jpg") no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -120,7 +120,7 @@ label {
 .contact-body::before{
   content: "";
   z-index: 0;
-  background: url("images/contact_me/contact_me.jpg") no-repeat;
+  background: url("../images/contact_me/contact_me.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;

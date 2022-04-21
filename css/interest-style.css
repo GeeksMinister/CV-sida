@@ -1,5 +1,5 @@
 .gaming-body::before{
-    background: url("images/gaming/background-3.jpg") ;
+    background: url("../images/gaming/background-3.jpg") ;
     width: 100%;
     height: 100%;
     margin: 0 ;
@@ -11,7 +11,7 @@
 }
 
 .photography-body::before{
-    background: url("images/hobbies/background-1.jpg") ;
+    background: url("../images/hobbies/background-1.jpg") ;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -24,7 +24,7 @@
 }
 
 .dotnet-body::before{
-    background: url("images/dotnet_projects/dotnet-2.jpg") ;
+    background: url("../images/dotnet_projects/dotnet-2.jpg") ;
     width: 100%;
     height: 100%;
     margin: 0;
