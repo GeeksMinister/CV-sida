@@ -22,10 +22,6 @@
       <nav>
         <ul>
           <li><a href="index.html">&nbsp;&nbsp;CV&nbsp;&nbsp;</a></li>
-          <li><a href="gaming.html">&nbsp;&nbsp;Gaming&nbsp;&nbsp;</a></li>
-          <li>
-            <a href="photography.html">&nbsp;&nbsp;Fotografering&nbsp;&nbsp;</a>
-          </li>
           <li><a href="dotnet.html">&nbsp;&nbsp;.NET&nbsp;&nbsp;</a></li>
           <li>
             <a href="contact_me.html" class="current"
@@ -36,20 +32,32 @@
       </nav>
     </header>
     <div class="contact-wrapper">
-      <form class="contact-form">
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/nael4slr@gmail.com"
+        method="POST"
+      >
         <div class="fields">
-          <input type="text" id="name" placeholder="Namn" />
+          <input type="text" id="name" placeholder="Namn" required />
           <input type="text" id="subject" placeholder="Ämne" />
           <input type="text" id="phone" placeholder="Mobilnummer" />
-          <input type="text" id="email" placeholder="Din e-postadress" />
+          <input
+            type="text"
+            id="email"
+            placeholder="Din e-postadress"
+            required
+          />
         </div>
         <div class="message">
           <textarea
             id="message"
             placeholder="Skriv in ett meddelande"
+            required
           ></textarea>
           <div class="btn-border">
-            <button class="send-button" onclick="checkInput()">Skicka</button>
+            <button type="submit" class="send-button" onclick="checkInput()">
+              Skicka
+            </button>
           </div>
         </div>
       </form>
