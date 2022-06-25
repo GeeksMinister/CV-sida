@@ -12,6 +12,11 @@ function checkInput() {
     }
 }
 
+function copyDiscord() {
+    navigator.clipboard.writeText("Nael4Slayer#5863");
+    alert('Discord username was copied to the clipboard');
+}
+
 // function readMore() {
 //     const readMoreBtn = document.querySelector(".read-more-btn");
 //     const text = document.querySelector(".text");

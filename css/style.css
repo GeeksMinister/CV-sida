@@ -11,6 +11,7 @@ body{
     padding: 0;
     position: relative;
     z-index: 1;
+    font-size: clamp(1rem, 0.2rem + 1vw, 1.3rem);
   }
 
   p{
@@ -37,6 +38,7 @@ body{
     text-align: center;
     position: relative;  
     font-size: 2.1vh;
+    font-size: clamp(0.3rem, 1rem + 1.5vw, 2rem);
     text-shadow: 0px 1px 1px rgb(0, 0, 0);
   }
   
@@ -54,6 +56,8 @@ body{
     margin: 0;
     padding: 0;
     font-size: 2.4vh;
+    font-size: 2.4vh;
+    font-size: clamp(0.5rem, 1rem + 1.2vw, 1.6rem), 2.4vh;
   }
   
   nav ul li {

@@ -12,6 +12,7 @@
 .cv-heading{
   text-align: center;
   font-size: 3vh;
+  font-size: clamp(1rem, 1rem + 4vw, 2.6rem);
 }
 
 .cv .profile-photo{
@@ -31,6 +32,7 @@ hr{
   text-align: left;
   border-spacing:  0.7rem;
   font-size: 1rem;
+  font-size: clamp(1rem, 0.2rem + 1vw, 1.3rem);
   color: hsla(0, 0%, 90%);
 }
 
@@ -47,6 +49,13 @@ hr{
 
 .portfolio table td {
   display: none;
+}
+
+table th {
+  font-weight: 900;
+  padding: 14px;
+  font-size: clamp(1.05rem, 0.2rem + 1vw, 1.5rem);
+  white-space: nowrap;
 }
 
 input[type='checkbox'] {
@@ -115,6 +124,7 @@ label {
   float: left;
   font-family: cursive;
   font-size: 2.1vh;
+  font-size: clamp(1.2rem, 0.5rem + 1vw, 2rem);
 }
 
 .contact-body::before{
@@ -130,6 +140,7 @@ label {
 .contact-wrapper {
   top: 30%;
   position: absolute;
+  margin-top: 2.3rem;
   width: 100%;
   height: 35%;
   display: flex;
@@ -187,6 +198,7 @@ textarea {
 @media screen and (max-height: 700px){
   .contact-wrapper {
     position: relative;
+    margin-bottom: 10rem;
   }
 }
 
@@ -215,6 +227,7 @@ textarea {
   .contact-form input{
       width: 100%;;
       padding: 0;
+      padding: 1.5vh 0;
   }
 
   .send-button {
