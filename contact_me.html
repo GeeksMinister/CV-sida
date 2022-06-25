@@ -38,11 +38,23 @@
         method="POST"
       >
         <div class="fields">
-          <input type="text" id="name" placeholder="Namn" required />
-          <input type="text" id="subject" placeholder="Ämne" />
-          <input type="text" id="phone" placeholder="Mobilnummer" />
           <input
             type="text"
+            name="name"
+            id="name"
+            placeholder="Namn"
+            required
+          />
+          <input type="text" name="subject" id="subject" placeholder="Ämne" />
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Mobilnummer"
+          />
+          <input
+            type="text"
+            name="email"
             id="email"
             placeholder="Din e-postadress"
             required
@@ -51,6 +63,7 @@
         <div class="message">
           <textarea
             id="message"
+            name="message"
             placeholder="Skriv in ett meddelande"
             required
           ></textarea>
