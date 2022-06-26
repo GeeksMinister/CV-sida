@@ -28,35 +28,20 @@ hr{
   width: 60%;
 }
 
-.portfolio table {
-  text-align: left;
-  border-spacing:  0.7rem;
-  font-size: 1rem;
-  font-size: clamp(1rem, 0.2rem + 1vw, 1.3rem);
-  color: hsla(0, 0%, 90%);
-}
-
-.portfolio th, img {
-  display: block;
-  font-family: 'Merriweather', serif;
-}
-
-.portfolio table tr td img {
-  border: 1.5px solid whitesmoke;
-  max-width: 100%;
-  max-height: 520px;
-}
-
-.portfolio table td {
-  display: none;
-}
 
 table th {
   font-weight: 900;
   padding: 14px;
   font-size: clamp(1.05rem, 0.2rem + 1vw, 1.5rem);
   white-space: nowrap;
+  text-align: left;
 }
+
+.experiance tr td {
+
+  padding-bottom: 2.5rem;
+}
+
 
 input[type='checkbox'] {
   display: none;
