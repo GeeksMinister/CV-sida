@@ -232,8 +232,17 @@ textarea {
 @media screen and (max-width: 1100px ) {
   .cv-body {
     padding-bottom: 10vh;
+  }
 
-    width: fit-content;
+  .experiance tr th {
+    font-size: clamp(0.9rem, 0.5rem + 1vw, 1rem);
+    word-wrap: break-word;
+    font-weight: bolder;
+  }
+
+  .experiance tr td {
+    font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
+    word-wrap: break-word;
   }
 }
 
