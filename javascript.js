@@ -5,9 +5,6 @@ function checkInput() {
     if (name.trim() == "" || email.trim() == "" || message.trim() == "") {
         alert("Var god och fill i namn, email, och meddelande !");
     }
-    else {
-        alert("Ditt meddelande har skickats");
-    }
 }
 
 function copyDiscord() {
